@@ -50,5 +50,4 @@ names(data) <- c(features_names,"Activity","Subject") # extremely redundant
 ###############################################################################################
 tidy <- data.table(data)
 mean_and_tidy <- tidy[, lapply(.SD,mean), by=c("Activity","Subject")]
-proper_names <- sapply(names(mean_and_tidy)[-(1:2)],function(n){paste("Mean",n,sep=" ")})
 write.table(mean_and_tidy, file = "tidy_data.txt", sep = " ", row.names = FALSE)
