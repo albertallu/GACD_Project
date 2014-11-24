@@ -1,9 +1,9 @@
 ****
-Getting and cleaning data course project
+**Getting and cleaning data course project**
 ****
 In this repo you can find the R-script for the "Getting and Cleaning Data" course on Coursera.
 
-The r_analysis.R can be run within R using:
+The run_analysis.R can be run within R using:
 
     source("run_analysis.R")
 The directory must be the one containing the folder produced by the unzipping of the file <a href="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip" target="_blank">https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip</a>.
