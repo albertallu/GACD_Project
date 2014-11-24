@@ -2,7 +2,6 @@
 # Necessary libraries
 library("data.table")
 library("plyr")
-library("reshape2")
 # What I can consider constants, at least in this script
 root = "./UCI HAR Dataset/"
 activity_labels = read.table(file.path(root,"activity_labels.txt"))[,2]
